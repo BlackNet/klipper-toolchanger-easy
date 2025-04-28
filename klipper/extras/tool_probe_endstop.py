@@ -217,7 +217,6 @@ class EndstopRouter:
             self.home_wait = self.on_error
             self.multi_probe_begin = self.on_error
             self.multi_probe_end = self.on_error
-            self.probing_move = self.on_error
             self.probe_prepare = self.on_error
             self.probe_finish = self.on_error
 
